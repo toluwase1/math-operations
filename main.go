@@ -3,7 +3,6 @@ package main
 
 import (
 	"fmt"
-
 	"github.com/elliotchance/orderedmap"
 )
 
@@ -15,6 +14,7 @@ func main() {
 	fmt.Println(multiply(2,3,4,5))
 	fmt.Println(subtract(3,4))
 	fmt.Println(divide(10, 2.5))
+	fmt.Println(multiplyValues(2,3,4))
 
 
 	//fmt.Println(multiplyValues(2.00, 8.10))

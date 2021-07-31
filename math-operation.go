@@ -20,13 +20,15 @@ func multiply(nums ...float64) float64  {
 	return multiplied
 }
 
-//func multiplyValues(nums ...float64) float64  {
-//	multiplied := float64(1)
-//	for i:=0; i<len(nums); i++ {
-//		multiplied = multiplied*i
-//	}
-//	return multiplied
-//}
+func multiplyValues(nums ...float64) float64  {
+	multiplied := float64(1)
+
+	for i:=0; i<len(nums); i++ {
+		multiplied = multiplied * float64(i)
+		multiplied*= float64(i)
+	}
+	return multiplied
+}
 
 func subtract(i, j float64) float64  {
 	sum:= i-j
@@ -37,4 +39,20 @@ func divide(i, j float64) float64  {
 	value:= i/j
 	return value
 }
+
+//overall method
+
+//func calculator(args ...string) (float64, error)   {
+//
+//	a, b, c, d  := "+", "-", "*", "/"
+//	switch  {
+//	case a:
+//		fmt.Println(args, )
+//
+//
+//	}
+//
+//
+//	return strconv.ParseFloat(args, 64)
+//}
 
