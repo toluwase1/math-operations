@@ -38,8 +38,9 @@ for _, test:= range additionStructs {
 	}
 }
 
+//func TestModify () {
+//
+//	}
 
-//func testMultiply(t*testing.T)
-//
-//
+
 }

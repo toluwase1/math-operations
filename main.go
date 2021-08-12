@@ -7,14 +7,30 @@ import (
 )
 
 func main() {
-	// router := httprouter.New()
+	// router := http router.New()
 	// router.GET("/", Index)
 	// log.Fatal(http.ListenAndServe(":8080", router))
-	fmt.Println(addition(2, 3, 4))
-	fmt.Println(multiply(2,3,4,5))
-	fmt.Println(subtract(3,4))
-	fmt.Println(divide(10, 2.5))
-	fmt.Println(multiplyValues(2,3,4))
+	//fmt.Println(sum(5))
+	//fmt.Println(sum(5))
+	//fmt.Println(multiplier(5))
+	//fmt.Println(addition(2, 3, 4))
+	//fmt.Println(multiply(2,3,4,5))
+	//fmt.Println(subtract(3,4))
+	//fmt.Println(divide(10, 2.5))
+	//fmt.Println(multiplyValues(2,3,4))
+	//fmt.Println(factorial(5))
+	//fmt.Println("........________________________ _____..........")
+	//fmt.Println("........recursion test for subtraction..........")
+	//fmt.Println(subtractAll(10-5-2))//3 correct
+	//fmt.Println(subtractAll(10-50-20-10))//-70 correct
+	//fmt.Println(subtractAll(100-50-30-20))// 0 correct
+	//fmt.Println(subtractAll(-1-1-1-1))// -4 correct
+	//fmt.Println(subtractAll(100-50-20-10))// 20
+	//
+	//fmt.Println("........________________________ _____..........")
+	//fmt.Println("........recursion test for division..........")
+
+//	fmt.Println(divideAll(4/4/2))
 
 
 	//fmt.Println(multiplyValues(2.00, 8.10))
