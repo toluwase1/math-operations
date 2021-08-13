@@ -12,7 +12,7 @@ func main() {
 	x:=7 | Value is 7, while Reference is the location where 7 is stored eg 0xc000018068
 	Reference meaning where exactly is 7 stored in computer memory, not x now: this: 0xc000018068
 	The value of a pointer is the address of another value in memory
-	A pointer points to alocation in memory where value is stored
+	A pointer points to allocation in memory where value is stored
 
 	A pointer to where an int is stored is a pointer to an int
 	*/
@@ -45,8 +45,14 @@ func main() {
 	fmt.Printf("%T", &a)
 	//var b int = &a
 
+	s := "good bye"
+	var p *string = &s
+	*p = "ciao"         // changing the value at &s
 
-
+	fmt.Printf("Here is the pointer p: %p\n", p)  // prints address
+	fmt.Printf("Here is the string *p: %s\n", *p) // prints string
+	fmt.Printf("Here is the string s: %s\n", s)   // prints same string
+print(p)
 }
 
 func abc(y *int, s string)  {
